@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #24252a;
+}
+
+li,
+a,
+button {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: #edf0f1;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+#logo {
+  height: 4px;
+  margin: 5px;
+}
