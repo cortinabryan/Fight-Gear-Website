@@ -5,6 +5,25 @@
   background-color: black;
 }
 
+.container {
+  /* max-width: 1300px; */
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+  position: relative;
+}
+
 li,
 a,
 button {
@@ -13,20 +32,31 @@ button {
   color: #edf0f1;
   text-decoration: none;
 }
-
+/* 
 header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   padding: 30px 10%;
-}
+} */
 
-.logo {
+/* .logo-image {
   position: relative;
   cursor: pointer;
   width: 180px;
-  /* left: 15px; */
+  left: 15px;
   margin-right: auto;
+} */
+
+/* .logo-image {
+  max-width: 25%;
+  min-width: 25%;
+  width: 125px;
+  object-fit: fill;
+} */
+
+.nav ul {
+  display: inline-block;
 }
 
 .nav__links li {
