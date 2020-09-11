@@ -188,4 +188,20 @@ button:hover {
   flex-basis: 25%;
   padding: 10px;
   min-width: 200px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.col-4 img {
+  width: 300px;
+  height: 570px;
+}
+
+#container2 {
+  align-items: flex-start;
+  /* flex-direction: column; */
+}
+
+.small-container h2 {
+  background-color: rgba(25, 25, 131, 0.755);
 }
