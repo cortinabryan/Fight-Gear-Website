@@ -162,7 +162,7 @@ button:hover {
 .col-3 img {
   width: 600px;
   height: 770px;
-  padding: 0 20px 20px;
+  padding: 20px 20px;
 }
 
 .small-container {
@@ -175,6 +175,7 @@ button:hover {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  background-color: rgba(255, 0, 0, 0.404);
 }
 
 /* 
@@ -182,3 +183,9 @@ button:hover {
   display: flex;
   flex-direction: column;
 } */
+
+.col-4 {
+  flex-basis: 25%;
+  padding: 10px;
+  min-width: 200px;
+}
