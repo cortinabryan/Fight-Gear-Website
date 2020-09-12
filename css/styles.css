@@ -190,6 +190,7 @@ button:hover {
   min-width: 200px;
   margin-bottom: 50px;
   margin-top: 50px;
+  transition: transform 0.5s;
 }
 
 .col-4 img {
@@ -197,14 +198,12 @@ button:hover {
   height: 570px;
 }
 
-.col-4 img:hover {
-}
-
 #container2 {
   /* align-items: start; */
   flex-direction: column;
   text-align: center;
   position: relative;
+  /* margin-top: 20px; */
 }
 
 .title {
@@ -212,19 +211,40 @@ button:hover {
   /* margin-top: 50px; */
   text-align: center;
   color: #555;
-  margin: 0 auto 80px;
+  /* margin: 0 auto 80px; */
   position: relative;
+  font-size: 40px;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 
 .title::after {
   content: "";
   background: #ff523b;
-  width: 80px;
+  width: 200px;
   height: 5px;
   border-radius: 5px;
   position: absolute;
   bottom: 0;
-  /* top: 0; */
+  /* top: 100%; */
   left: 50%;
   transform: translateX(-50%);
+}
+
+h4 {
+  color: #555;
+  font-weight: normal;
+}
+
+.col-4 p {
+  font-size: 16px;
+}
+
+.ratings .fa {
+  color: #ff523b;
+  font-size: 20px;
+}
+
+.col-4:hover {
+  transform: translateY(-5px);
 }
