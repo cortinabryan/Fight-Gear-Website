@@ -178,7 +178,7 @@ button:hover {
   background-color: rgba(255, 0, 0, 0.404);
 }
 
-/* 
+/*
 #second-row {
   display: flex;
   flex-direction: column;
@@ -193,15 +193,38 @@ button:hover {
 }
 
 .col-4 img {
-  width: 300px;
+  width: 400px;
   height: 570px;
 }
 
-#container2 {
-  align-items: flex-start;
-  /* flex-direction: column; */
+.col-4 img:hover {
 }
 
-.small-container h2 {
-  background-color: rgba(25, 25, 131, 0.755);
+#container2 {
+  /* align-items: start; */
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+}
+
+.title {
+  /* background-color: rgba(25, 25, 131, 0.755); */
+  /* margin-top: 50px; */
+  text-align: center;
+  color: #555;
+  margin: 0 auto 80px;
+  position: relative;
+}
+
+.title::after {
+  content: "";
+  background: #ff523b;
+  width: 80px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  /* top: 0; */
+  left: 50%;
+  transform: translateX(-50%);
 }
