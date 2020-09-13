@@ -248,3 +248,8 @@ h4 {
 .col-4:hover {
   transform: translateY(-5px);
 }
+
+.offer {
+  padding: 50px 200px;
+  background: radial-gradient(#fff, #050303);
+}
