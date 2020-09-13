@@ -249,7 +249,17 @@ h4 {
   transform: translateY(-5px);
 }
 
+/* offer  */
+
 .offer {
   padding: 50px 200px;
   background: radial-gradient(#fff, #050303);
+}
+
+.col-2 .offer-img {
+  padding: 50px;
+}
+
+small {
+  /* color: #555; */
 }
