@@ -277,9 +277,20 @@ small {
   display: inherit;
 } */
 
-.row2 {
+/* .row2 {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: column;
+} */
+
+.row2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: ;
+  /* align-items: center; */
   flex-wrap: wrap;
   justify-content: space-around;
   flex-direction: column;
