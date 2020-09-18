@@ -466,3 +466,14 @@ ul {
   margin-left: 100px;
   margin-right: 100px;
 }
+
+.footer hr {
+  border: none;
+  background: #b5b5b5;
+  height: 1px;
+  margin: 20px 100px;
+}
+
+.copyright {
+  text-align: center;
+}
