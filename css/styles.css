@@ -116,7 +116,11 @@ button:hover {
 }
 
 .col-2 img {
-  max-width: 100%;
+  width: 100%;
+  object-fit: fill;
+  /* height: %; */
+  /* width: 113%; */
+  /* padding-left: 200px; */
 }
 
 .col-2 h1 {
