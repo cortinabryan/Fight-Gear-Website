@@ -113,6 +113,7 @@ button:hover {
 .col-2 {
   flex-basis: 50%;
   min-width: 300px;
+  transition: transform 0.5s;
 }
 
 .col-2 img {
@@ -167,6 +168,7 @@ button:hover {
   min-width: 250px;
   margin-bottom: 30px;
   /* background-color: rgba(30, 30, 191, 0.576); */
+  transition: transform 0.5s;
 }
 
 .col-3 img {
@@ -176,6 +178,11 @@ button:hover {
   height: 875px;
   width: 100%;
   padding: 20px 20px;
+}
+
+.col-3:hover {
+  transform: translateY(-5px);
+  background: radial-gradient(#fff, #050303);
 }
 
 .small-container {
@@ -271,6 +278,11 @@ h4 {
 
 .col-2 .offer-img {
   padding: 50px;
+  transition: transform 0.5s;
+}
+
+.col-2 .offer-img:hover {
+  transform: translateY(-5px);
 }
 
 small {
