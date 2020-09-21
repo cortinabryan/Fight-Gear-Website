@@ -125,8 +125,24 @@ button:hover {
 }
 
 .col-2 h1 {
-  font-size: 50px;
+  font-size: 75px;
   line-height: 60px;
+  line-height: 1;
+  font-family: "Josefin Sans", sans-serif;
+  /* font-family: "Special Elite", cursive; */
+}
+
+.col-2n {
+  flex-basis: 50%;
+  min-width: 300px;
+  transition: transform 0.5s;
+}
+
+.col-2n h1 {
+  font-size: 75px;
+  line-height: 60px;
+  line-height: 1;
+  /* font-family: "Josefin Sans", sans-serif; */
   font-family: "Special Elite", cursive;
 }
 
