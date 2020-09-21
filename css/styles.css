@@ -100,8 +100,8 @@ button:hover {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  /* justify-content: center; */
   justify-content: space-around;
-  /* justify-content: space-between; */
   /* margin-left: 25px; */
   /* background-color: rgb(19, 19, 116); */
 }
@@ -182,7 +182,7 @@ button:hover {
 
 .col-3:hover {
   transform: translateY(-5px);
-  background: radial-gradient(#fff, #050303);
+  /* background: radial-gradient(#fff, #050303); */
 }
 
 .small-container {
@@ -206,11 +206,12 @@ button:hover {
 
 .col-4 {
   flex-basis: 25%;
-  padding: 10px;
+  /* padding-left: 50px; */
   min-width: 200px;
   margin-bottom: 50px;
   margin-top: 50px;
   transition: transform 0.5s;
+  justify-content: center;
 }
 
 .col-4 img {
